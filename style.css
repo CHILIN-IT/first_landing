@@ -38,6 +38,7 @@ body {
     padding: 0 0 17px 0;
 }
 
+/*чекаем изменения*/
 /*здесь я стилизую блок с контактной информацией */
 .contact_info__info_block {
     display: flex;
