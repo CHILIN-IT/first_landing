@@ -1,32 +1,67 @@
 body {
- padding: 0 !important;
- margin: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .container {
- width: 100%;
+    width: 100%;
+}
+
+/*этот блок с id что бы задачть нашему контенту без блока с минкой и футера паддинги и расположение блоков*/
+#mail_container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 62px 0 62px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
- width: 100%;
- display: flex;
- flex-direction: column;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
+/*Родительскому блоку я зада такие стили что бы разнести  его чайлдов по разным местам как на макете*/
 .contact-info {
- width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.10);;
 }
 
-.content {}
+/*здесь я через id задаю блоку стили родителю наших блоков с адресом и часами работы. ID использую что бы он не пересикался со стрилями других блоков*/
+#contact_info__info_block {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0 17px 0;
+}
 
-.menu {}
+/*здесь я стилизую блок с контактной информацией */
+.contact_info__info_block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
 
-.button-primary {}
+.content {
+}
 
-.b-1 {}
+.menu {
+}
 
-.title {}
+.button-primary {
+}
 
-.b-2 {}
+.b-1 {
+}
 
-.Mishka {}
+.title {
+}
+
+.b-2 {
+}
+
+.Mishka {
+}
