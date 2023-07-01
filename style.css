@@ -7,13 +7,14 @@ body {
     width: 100%;
 }
 
-/*этот блок с id что бы задачть нашему контенту без блока с минкой и футера паддинги и расположение блоков*/
+/*этот блок с id что бы задачть нашему контенту без блока с Мишкой и футера паддинги и расположение блоков*/
 #mail_container {
     width: 100%;
     box-sizing: border-box;
     padding: 10px 62px 0 62px;
     display: flex;
     flex-direction: column;
+
 }
 
 .header {
@@ -24,18 +25,24 @@ body {
 
 /*Родительскому блоку я зада такие стили что бы разнести  его чайлдов по разным местам как на макете*/
 .contact-info {
+
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(51, 51, 51, 0.10);;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.10);
+    ;
 }
 
 /*здесь я через id задаю блоку стили родителю наших блоков с адресом и часами работы. ID использую что бы он не пересикался со стрилями других блоков*/
 #contact_info__info_block {
     display: flex;
-    width: 100%;
+    justify-content: space-between;
+    width: 20vw;
     box-sizing: border-box;
     padding: 0 0 17px 0;
+
+
+
 }
 
 /*чекаем изменения*/
@@ -44,25 +51,35 @@ body {
     display: flex;
     flex-direction: column;
     align-items: start;
+
 }
 
-.content {
+.telephone {
+    display: flex;
+    flex-direction: column;
 }
 
-.menu {
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
-.button-primary {
+.Euro-logo {
+    padding: 21px 55px 21px 0;
+}
+.navigation {
+   
 }
 
-.b-1 {
+.nav-item {
+    text-decoration: none;
+    margin-right: 46px;
 }
 
-.title {
-}
+.button {
 
-.b-2 {
 }
-
-.Mishka {
+.btn-1 {
 }
