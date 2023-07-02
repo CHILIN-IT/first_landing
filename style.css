@@ -62,7 +62,9 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+
+   
 
 }
 
@@ -70,6 +72,8 @@ body {
     padding: 21px 55px 21px 0;
 }
 .navigation {
+    display: flex;
+    justify-content: space-around;
    
 }
 
