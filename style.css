@@ -63,18 +63,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 67px;
 
-   
+
+
 
 }
 
 .Euro-logo {
     padding: 21px 55px 21px 0;
 }
+
 .navigation {
     display: flex;
     justify-content: space-around;
-   
+
+
+
+
 }
 
 .nav-item {
@@ -82,8 +88,56 @@ body {
     margin-right: 46px;
 }
 
-.button {
+
+.button {}
+
+.btn-1 {
+    border-radius: 8px;
+    background: #4762FF;
+    color: #FFF;
 
 }
-.btn-1 {
+
+.content {
+    display: flex;
+   flex-direction: column;
+
+
+}
+
+.Affordable,
+h1 {
+    color: #333;
+    font-size: 60px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 76px;
+    margin-bottom: 16px;
+
+}
+
+.Lorem,
+p {
+    font-size: 18px;
+    font-weight: 400px;
+    margin-top: 16px;
+
+}
+
+.btn-2 {
+    border-radius: 8px;
+    background: #4762FF;
+    color: #FFF;
+}
+
+.Truck {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    
+
+
+    
+
 }
