@@ -1,6 +1,20 @@
-body, h1, p {
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+body,
+h1,
+p {
     padding: 0 !important;
     margin: 0 !important;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
 }
 
 button {
@@ -74,7 +88,7 @@ button {
     justify-content: space-between;
 }
 
-.navigation > a {
+.navigation>a {
     color: #333;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -93,13 +107,26 @@ button {
     margin-right: 46px;
 }
 
-
-.button {}
-
-.btn-1 {
-    border-radius: 8px;
-    background: #4762FF;
+.navigation_button {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 179px;
+    height: 40px;
+    padding: 11px 23px;
     color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    background-color: #4762FF;
+    border: none !important;
+
+
+    /* border-radius: 8px;
+    background: #4762FF;
+    color: #FFF; */
 }
 
 .content {
@@ -113,7 +140,7 @@ button {
     flex-direction: column;
 }
 
-.content_block_main_info > h1 {
+.content_block_main_info>h1 {
     color: #333;
     font-family: 'Inter', sans-serif;
     font-size: 60px;
@@ -122,7 +149,7 @@ button {
     line-height: 100%;
 }
 
-.content_block_main_info > button {
+.content_block_main_info>button {
     box-sizing: border-box;
     margin-top: 43px;
     width: 100%;
@@ -141,22 +168,6 @@ button {
     border: none !important;
 }
 
-.content_block_image {
-
-}
-
-/*.Affordable,*/
-/*h1 {*/
-/*    color: #333;*/
-/*    font-size: 60px;*/
-/*    font-family: Inter;*/
-/*    font-style: normal;*/
-/*    font-weight: 700;*/
-/*    line-height: 76px;*/
-/*    margin-bottom: 16px;*/
-/*}*/
-
-/*.Lorem,*/
 p {
     font-size: 18px;
     font-weight: 400;
@@ -173,9 +184,69 @@ p {
     display: flex;
     justify-content: end;
     position: absolute;
-    
+}
 
+.information {
+    display: flex;
+    flex-direction: column;
+}
 
-    
+.information_advertisement_block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 27px 20px;
+}
+
+.information_message_block p {
+    max-width: 540px;
+    text-align: center;
+}
+
+.information_message_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.information_message_block h2 {
+    margin-bottom: 18px;
+}
+
+.information_advertisement_item {
+    border-radius: 9px;
+    background: #F4F6FA;
+    padding: 25px 31px 25px 28px;
+}
+
+.information_advertisement_item h3 {
+    color: #333;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.information_advertisement_body img {
+    float: right;
+}
+
+.information_advertisement_body {
+    font-size: 18px;
+}
+
+.information-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.information_advertisement_block-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 27px 20px;
 
 }
