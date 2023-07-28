@@ -1,6 +1,9 @@
-*,*:before,*:after{
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
+
 body,
 h1,
 p {
@@ -230,17 +233,26 @@ p {
     line-height: normal;
 }
 
-.information_advertisement_body img {
-    float: right;
-}
+
 
 .information_advertisement_body {
     font-size: 18px;
+    display: flex;
+    width: 100%;
+}
+
+.information_advertisement_body p {
+    width: 50%;
+}
+
+.information_advertisement_body div {
+    width: 50%;
 }
 
 .information-2 {
     display: flex;
     flex-direction: column;
+    padding: 0 207px 0 207px;
 }
 
 .information_advertisement_block-2 {
